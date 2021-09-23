@@ -37,3 +37,17 @@ Base image is augmented into four sub images by cropping and rotating in differe
 The crop row is labelled with white lines on black background. The line width of the white line is 8 pixels. The labels could be regenerated with custom line width using the labels *.mat* files.
 
 ![metadata/DataSample.jpg](metadata/DataSample.jpg)
+
+
+## Citation
+
+```
+@misc{desilva2021agricultural,
+      title={Towards agricultural autonomy: crop row detection under varying field conditions using deep learning},
+      author={Rajitha de Silva and Grzegorz Cielniak and Junfeng Gao},
+      year={2021},
+      eprint={2109.08247},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
