@@ -10,22 +10,10 @@ Numeric values of the labelled coordinates are stored in *.mat* files. All the l
 
     .
     │
-    ├── Train Dataset              # 1000 images based on 250 base images
-    │   ├── 250 Base images        # Captured with intel realsense D435i (16:9 ratio)
-    │   ├── 10 Data Categories     # 1000 images with 512x512 resolution
-    │      ├── Horizontal Shadows  # Shadow  falls  perpendicular  to  the  direction of the crop row
-    │      ├── Slope/ Curve        # Images captured while the crop row is not in a flat farmland or where crop rows are not straight lines
-    │      ├── Discontinuities     # Missing  plants  in  the  crop  row  which leads to discontinuities in crop row
-    │      ├── FrontShadow         # Shadow of the robot falling on the image captured by the camera
-    │      ├── Dense Weed          # Weed grown densely among the crop rows
-    │      ├── Large Crops         # Presence  of  one  or  many  largely  grown crops within the crop row
-    │      ├── Small Crops         # Crop rows at early growth stages
-    │      ├── Sunlight            # Sunlight  falling  on  the  camera  causing lens flares and similar distortions
-    │      ├── Tyre Tracks         # Tyre    tracks    from    tramlines    running through the field
-    │      └── Sparse Weed         # Sparsely  grown  weed  scattered  between the crop rows
+    ├── Train Dataset              # 1000 images based on 250 base images. [100 Images per category x 10 Categories]
     │
-    └── Test Dataset              # 1000 images based on 250 base images
-        ├── 250 Base images        # Captured with intel realsense D435i (16:9 ratio)
+    └── Test Dataset               # 1000 images based on 250 base images
+        ├── 250 Resized images     # 250 base images are resized into 512x512 resolution
         ├── 10 Data Categories     # 1000 images with 512x512 resolution
            ├── Horizontal Shadows  # Shadow  falls  perpendicular  to  the  direction of the crop row
            ├── Slope/ Curve        # Images captured while the crop row is not in a flat farmland or where crop rows are not straight lines
