@@ -34,7 +34,7 @@ Base image is augmented into four sub images by cropping and rotating in differe
 ![metadata/cropping.jpg](metadata/cropping.jpg)
 
 ## Sample Data
-The crop row is labelled with white lines on black background. The line width of the white line is 8 pixels. The labels could be regenerated with custom line width using the labels *.mat* files.
+The crop row is labelled with white lines on black background. The line width of the white line is 6 pixels. The labels could be regenerated with custom line width using the labels *.mat* files.
 
 ![metadata/DataSample.jpg](metadata/DataSample.jpg)
 
