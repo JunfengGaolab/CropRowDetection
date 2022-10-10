@@ -42,12 +42,10 @@ The crop row is labelled with white lines on black background. The line width of
 ## Citation
 
 ```
-@misc{desilva2021agricultural,
-      title={Towards agricultural autonomy: crop row detection under varying field conditions using deep learning},
-      author={Rajitha de Silva and Grzegorz Cielniak and Junfeng Gao},
-      year={2021},
-      eprint={2109.08247},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{de2022deep,
+  title={Deep learning-based Crop Row Following for Infield Navigation of Agri-Robots},
+  author={de Silva, Rajitha and Cielniak, Grzegorz and Wang, Gang and Gao, Junfeng},
+  journal={arXiv preprint arXiv:2209.04278},
+  year={2022}
 }
 ```
