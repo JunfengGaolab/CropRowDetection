@@ -1,0 +1,7 @@
+focal_loss==0.0.7
+Keras==2.4.3
+matplotlib==3.4.3
+numpy==1.20.3
+Pillow==9.3.0
+scikit_learn==1.2.0
+tensorflow==2.4.1
