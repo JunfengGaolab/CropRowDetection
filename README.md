@@ -80,7 +80,7 @@ The triangle scan method is a 2-step process which determines the central crop r
 @article{de2022deep,
   title={Deep learning-based Crop Row Following for Infield Navigation of Agri-Robots},
   author={de Silva, Rajitha and Cielniak, Grzegorz and Wang, Gang and Gao, Junfeng},
-  journal={arXiv preprint arXiv:2209.04278},
-  year={2022}
+  journal={Journal of Field Robotics},
+  year={2023}
 }
 ```
