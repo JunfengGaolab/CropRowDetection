@@ -65,14 +65,7 @@ The crop row is labelled with white lines on black background. The line width of
   <figcaption>Figure 2: Example image and semantic label from the dataset. </figcaption>
 </figure>
 
-# Triangle Scan Method (TSM)
 
-The triangle scan method is a 2-step process which determines the central crop row from a semantic skeleton segmentation of a crop row. The first step (Anchor Scan) and the second step (Line Scan) scan for the topmost (Anchor Point) and the lowermost ($P_{r}$) points of the central crop row respectively. The anchor point $A$ and point $P_{r}$ always lie on the top and bottom edges of the image respectively. Please refer the [TSM repository](https://github.com/Rajitha159/TSM) for the code.
-
-<figure>
-  <img src="metadata/ROIs.png" alt="Alt Text" width="50%">
-  <figcaption>Figure 3: Regions of interest for anchor scan and line scan. Anchor Scan ROI: RED, Line Scan ROI: Green. </figcaption>
-</figure>
 
 ## Citation
 
