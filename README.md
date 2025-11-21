@@ -1,7 +1,10 @@
 # CropRow Detection Lincoln Dataset (CRDLD)
 
-Here we will release the version 2.1 of CRDLD dataset. [Click here for version 1.0.](https://github.com/JunfengGaolab/CropRowDetection/tree/CRDLDv1) <br>
+Here we will release the version 2.1 of CRDLD dataset. <br>
 [Download dataset](https://lcas.lincoln.ac.uk/nextcloud/index.php/s/Eip4nWbetxJQ6No)
+---
+[Click here for version 1.0.](https://github.com/JunfengGaolab/CropRowDetection/tree/CRDLDv1) 
+
 ---
 ## Dataset Structure
 The dataset is based on 2000 images. The 2000 image dataset is classified into three groups for the purpose of training, testing and validation. The training, testing and validation sub-groups contain 1250,500 and 250 images respectively. Each image in the dataset consists of a corresponding ground truth image. Numeric values of the labelled coordinates are stored in *.mat* files. 
@@ -65,7 +68,23 @@ The crop row is labelled with white lines on black background. The line width of
   <figcaption>Figure 2: Example image and semantic label from the dataset. </figcaption>
 </figure>
 
+---
 
+> **Note: Generating Ground Truth Masks**
+>
+> The labels were created using the MATLAB Video Labeler tool. If you need the **unresized original images** or to regenerate the ground truth image masks:
+>
+> 1. **Download the unresized original images**:
+>    - **[Train Dataset](https://drive.google.com/file/d/1-11NX4hdVav5s6Wf0naG6m6Juup2w4HH/view?usp=sharing)**
+>    - **[Test Dataset](https://drive.google.com/file/d/1DyjCnJdRVWxN51DKG2NQKVlbsMl9HLKv/view?usp=sharing)**
+>
+> 2. Use the provided [MATLAB Code](https://github.com/JunfengGaolab/CropRowDetection/blob/main/codes/label_image_gen.m) to generate the masks.  
+>    - Uncomment the **“Fix missing paths if needed”** section to update the directory of the original images on your machine.  
+>    - Load the corresponding MATLAB `.mat` data file **before each execution**.  
+>    - Provide the correct original image directory **for every run**.
+>
+> Following these steps is required to correctly generate the ground truth masks.
+---
 
 ## Citation
 
