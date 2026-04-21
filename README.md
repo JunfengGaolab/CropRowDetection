@@ -47,17 +47,17 @@ Table 2 contains the combinations field variations given in Table 1 in the datas
 
 | Data Category      | a | b | c      | d     | e | f | g | h | i | j |
 |--------------------|---|---|--------|-------|---|---|---|---|---|---|
-| Horizontal Shadow | 1 |   |        |       |   |   |   |   |   |   |
-| Front Shadow      |   | 7 |        |       |   |   |   |   |   |   |
-| Small Crops       | 2 | 8 | 11, 44 |       |47 |   |   |   |45 |46 |
-| Large Crops       | 3 | 9 | 12     | 20, 48|50 |   |   |   |49 |   |
-| Sparse Weed       |   |   | 13     | 21    |   |   |   |   |   |   |
-| Dense Weed        |   |   | 14     | 22    |   |   |   |   |   |   |
-| Sunny             |   |   | 15     | 23    |28 |32 |   |   |   |   |
-| Cloudy            |   |   | 16     | 24    |29 |33 |   |   |   |   |
-| Discontinuities   | 4 | 10| 17     | 25    |30 |34 |36 |39 |   |   |
-| Slope/ Curve      | 5 |   | 18     | 26    |31 |35 |37 |40 |42 |   |
-| Tyre Tracks       | 6 |   | 19     | 27    |   |   |38 |41 |43 |   |
+| a. Horizontal Shadow | 1 |   |        |       |   |   |   |   |   |   |
+| b. Front Shadow      |   | 7 |        |       |   |   |   |   |   |   |
+| c. Small Crops       | 2 | 8 | 11, 44 |       |47 |   |   |   |45 |46 |
+| d. Large Crops       | 3 | 9 | 12     | 20, 48|50 |   |   |   |49 |   |
+| e. Sparse Weed       |   |   | 13     | 21    |   |   |   |   |   |   |
+| f. Dense Weed        |   |   | 14     | 22    |   |   |   |   |   |   |
+| g. Sunny             |   |   | 15     | 23    |28 |32 |   |   |   |   |
+| h. Cloudy            |   |   | 16     | 24    |29 |33 |   |   |   |   |
+| i. Discontinuities   | 4 | 10| 17     | 25    |30 |34 |36 |39 |   |   |
+| j. Slope/ Curve      | 5 |   | 18     | 26    |31 |35 |37 |40 |42 |   |
+| k. Tyre Tracks       | 6 |   | 19     | 27    |   |   |38 |41 |43 |   |
 
 
 ## Sample Data
